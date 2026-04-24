@@ -28,11 +28,13 @@ l1.extend(l2)   # [1,2,3,4]
 
 l = [10, 20, 30]
 l.pop(1)   # removes 20   remove by index
+print(len(l))
+l.append(55)
 
 
 l = [1, 2, 3]
 l.remove(2)   # removes first 2  remove by value
-
+#remove method used for remove by value and pop is used for remove by index
 
 l.clear()   # []
 

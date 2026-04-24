@@ -22,7 +22,7 @@ print(s)  # {1, 2, 3, 4}
 
 s = {1, 2, 3}
 s.remove(2)
-
+print(2 in s) # it is use for check it is in set or not
 print(s)  # {1, 3}
 
 

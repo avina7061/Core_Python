@@ -22,6 +22,7 @@ def avg():
     print(average)
 
 
+
 avg()  # Function Call
 print("Thank you!")
 avg()

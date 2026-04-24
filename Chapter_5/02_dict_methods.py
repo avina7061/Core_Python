@@ -12,7 +12,7 @@ marks = {
 # print(marks)
 
 print(marks.get("Harry2")) # Prints None
-print(marks["Harry2"]) # Returns an error
+# print(marks["Harry2"]) # Returns an error
 
 
 d = {"name": "Avinash", "age": 20}
@@ -61,6 +61,8 @@ d = {"a": 1}
 
 print(d.setdefault("a", 100))  # 1 (already exists)
 print(d.setdefault("b", 100))  # 100 (added)
+
+d.update({"c":d.get("c",0)+1})
 
 print(d)  # {'a': 1, 'b': 100}
 
