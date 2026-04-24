@@ -14,7 +14,7 @@ elif(a<0):
     print("You are entering an invalid negative age")
 
 else:
-    print("You are below the age of consent")
+    print("You are below the age of consent")   
 # End of If statement no: 2
 
 print("End of Program")
