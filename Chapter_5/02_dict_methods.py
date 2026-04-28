@@ -11,6 +11,16 @@ marks = {
 # marks.update({"Harry": 99, "Renuka": 100})
 # print(marks)
 
+# print("Rohan" in marks)
+# print("Harry" in marks)
+my_map = {"a": 1, "b": 2}
+
+value = my_map.get("c", 0)  # returns 0 if "c" not present
+print(value)
+
+my_map["a"] = my_map.get("a", 0) + 1    # use this type of assignment
+# it is same as map.put(key, map.getOrDefault(key, 0) + 1);
+
 print(marks.get("Harry2")) # Prints None
 # print(marks["Harry2"]) # Returns an error
 

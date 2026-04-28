@@ -10,7 +10,6 @@ print(i)
 print(len(a))
 
 
-
 t = (1, 2, 3, 2)
 
 print("Tuple:", t)
